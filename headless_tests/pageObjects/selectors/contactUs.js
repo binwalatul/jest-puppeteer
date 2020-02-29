@@ -1,0 +1,16 @@
+module.exports = {
+  loginBtn: '.o_app_Header_loginButton',
+  contactUs: '#contact-us-header',
+  topQues: '#top-question',
+  issueDesc: '#form-2',
+  issueType: '#form-1',
+  submitIssue: '#submit-btn',
+  successMsg: '.alert-success',
+  existingTopics: '.mrg-b-sml>a',
+  stillNeedHelp: '#still-need-help',
+  descErrMsg: '.with-errors ul',
+  accountIssue: '#account-changes',
+  signUpIssue: '#signup-first-time',
+  portfolioIssue: '#submit-portfolio',
+  reportBug: '#report-bug',
+};

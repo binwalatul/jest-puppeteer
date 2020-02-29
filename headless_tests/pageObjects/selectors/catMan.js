@@ -1,0 +1,26 @@
+const elements = {
+  media: 'div[data-test-ref="media-grid"]>a',
+  mediaItems: '.cm-media-thumb.thumbnail',
+  mediaSelectCheckbox: 'input[type="checkbox"]',
+  allImagesCount: 'li[data-test-ref="Catalog"]>span:last-child',
+  createSetBtn: '.flex-auto-margins .flex-justify-end .btn-primary',
+  confirmCreateSet: 'span[data-test-ref="confirm-create-set-modal"]',
+  enterSetName: '.form-control.form-control-success',
+  createdSets: 'ul[data-test-ref="set-list"] .list-unstyled>a',
+  setActions: '#set-actions-dropdown',
+  setActionsDropdown: '.dropdown-menu-right',
+  setActionConfirmDialog: '.modal-dialog',
+  unpublishBtn: 'span[data-test-ref="toggle-publish-set"]',
+  confirmDeleteSet: 'span[data-test-ref="confirm-delete-set-modal"]',
+  confirmRenameSet: 'span[data-test-ref="confirm-rename-set-modal"]',
+  publishSign: '.component-content>ul:nth-child(2)>ul>a .catalog-manager-sprite',
+  existingSetName: 'input[data-test-ref="input-rename-set-modal"]',
+  setMedia: '.cm-media-thumb',
+  setVideoEditBtn: '.btn-ghost',
+  editDescription: 'span[data-test-ref="description-text-input"]>div>textarea',
+  submitChanges: 'span[data-test-ref="submit-button"]>button',
+  successAlert: '.o_Alert_Alert_alertMessage',
+  mediaContent: '.flex-auto-margins>a',
+};
+
+module.exports = elements;

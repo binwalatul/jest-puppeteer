@@ -1,0 +1,17 @@
+module.exports = {
+  heading: '.font-headline-responsive-md',
+  referralCtrbHeading: '.o_ContributorReferrals_ContributorReferrals_sectionTitle',
+  referralCtrbSection: '.o_ContributorReferrals_ContributorReferrals_borderedSection',
+  referralCustomerHeading: '.o_CustomerReferrals_CustomerReferrals_table>table>thead',
+  referralCustomerSection: '.o_CustomerReferrals_CustomerReferrals_borderedSection',
+  referralShareLink: 'div.o_PageShareLinks_PageShareLinks_borderedSection:nth-of-type(1) div.o_PageShareLinks_PageShareLinks_sectionCopyLink:nth-of-type(1) > div:nth-child(1)',
+  referredCtrbName: '.o_ContributorReferrals_ContributorReferrals_table > table:nth-child(1) > tbody:nth-child(2) > tr a',
+  totalReferralEarnings: '.o_FlexGrid_flexboxgrid_col-lg-6:nth-child(1) > div:nth-child(1) > li:nth-child(1) > span:nth-child(1) > span:nth-child(2) div',
+  totalCtrbEarnings: '.o_FlexGrid_flexboxgrid_col-lg-6:nth-child(1) > div:nth-child(1) > li:nth-child(3) > span:nth-child(1) > span:nth-child(2) > span:nth-child(1) > div',
+  totalCustomerEarnings: '.o_FlexGrid_flexboxgrid_col-lg-6:nth-child(1) > div:nth-child(1) > li:nth-child(4) > span:nth-child(1) > span:nth-child(2) > span:nth-child(1) > div',
+  totalReferralCount: '.o_FlexGrid_flexboxgrid_col-lg-6:nth-child(2) > div:nth-child(1) > li:nth-child(1) > span:nth-child(1) > span:nth-child(2) > span:nth-child(1) > div',
+  totalContributorCount: '.o_FlexGrid_flexboxgrid_col-lg-6:nth-child(2) > div:nth-child(1) > li:nth-child(3) > span:nth-child(1) > span:nth-child(2) > span:nth-child(1) > div',
+  totalCustomerCount: '.o_FlexGrid_flexboxgrid_col-lg-6:nth-child(2) > div:nth-child(1) > li:nth-child(4) > span:nth-child(1) > span:nth-child(2) > span:nth-child(1) > div',
+  firstReferredCtrb: '.o_ContributorReferrals_ContributorReferrals_table > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > a',
+  galleryUrl: 'div.o_PageShareLinks_PageShareLinks_sectionCopyLink:nth-child(3) > div:nth-child(1)',
+};

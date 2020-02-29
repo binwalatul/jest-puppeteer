@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="puppeteer tests" tests="11" failures="9" time="189.166">
+  <testsuite name="__tests__/accounts/accountAddress.js" errors="0" failures="0" skipped="0" timestamp="2019-06-04T17:00:30" time="115.407" tests="2">
+    <testcase classname="User is able to change the existing address-Current address country can be changed" name="User is able to change the existing address-Current address country can be changed" time="60.784">
+    </testcase>
+    <testcase classname="User is able to change the existing address-Current address can be changed" name="User is able to change the existing address-Current address can be changed" time="51.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/catalogManager/catManHappyPath.js" errors="0" failures="3" skipped="0" timestamp="2019-06-04T17:00:30" time="118.653" tests="3">
+    <testcase classname="User is able to perform actions on catalog manager-User is able to see the right count on every media type" name="User is able to perform actions on catalog manager-User is able to see the right count on every media type" time="54.888">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;div[data-test-ref=&quot;media-grid&quot;]&gt;a&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="User is able to perform actions on catalog manager-User is able to perform actions on set containing Images" name="User is able to perform actions on catalog manager-User is able to perform actions on set containing Images" time="30.007">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;li[data-test-ref=&quot;Vector&quot;]&gt;span:last-child&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="User is able to perform actions on catalog manager-User is able to perform actions on set containing Videos" name="User is able to perform actions on catalog manager-User is able to perform actions on set containing Videos" time="30.008">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;li[data-test-ref=&quot;Video&quot;]&gt;span:last-child&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/accounts/accountSettings.js" errors="0" failures="4" skipped="0" timestamp="2019-06-04T17:00:30" time="155.145" tests="4">
+    <testcase classname="User is able to change the user setting-User is able to modify the media license" name="User is able to change the user setting-User is able to modify the media license" time="61.23">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;#account-settings&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="User is able to change the user setting-User details shown on the page are correct" name="User is able to change the user setting-User details shown on the page are correct" time="30.014">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;#account-email-address .text-fluid&gt;div&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="User is able to change the user setting-User is able to see the default payment method and value" name="User is able to change the user setting-User is able to see the default payment method and value" time="30.011">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;#payout-method&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="User is able to change the user setting-User is able to switch to different payment method" name="User is able to change the user setting-User is able to switch to different payment method" time="30.009">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;select[name=&quot;payout_method&quot;]&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/catalogManager/editApprovedMedia.js" errors="0" failures="2" skipped="0" timestamp="2019-06-04T17:02:26" time="71.697" tests="2">
+    <testcase classname="User is able to edit approved media-User is able to edit approved image" name="User is able to edit approved media-User is able to edit approved image" time="39.475">
+      <failure>Error: Failed: &quot;Error logging in with the user. Error: TimeoutError: waiting for selector \&quot;#login-username\&quot; failed: timeout 30000ms exceeded&quot;
+    at Env.it (/home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:91:24)
+    at it (/home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:93:21)
+    at Suite.test (/home/binwalatul/contributor-carbon-web/test/headless_tests/__tests__/catalogManager/editApprovedMedia.js:5:3)
+    at addSpecsToSuite (/home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-jasmine2/build/jasmine/Env.js:417:49)
+    at Env.describe (/home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-jasmine2/build/jasmine/Env.js:387:9)
+    at describe (/home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:81:18)
+    at Object.describe (/home/binwalatul/contributor-carbon-web/test/headless_tests/__tests__/catalogManager/editApprovedMedia.js:4:1)
+    at Runtime._execModule (/home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-runtime/build/index.js:765:13)
+    at Runtime.requireModule (/home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-runtime/build/index.js:361:14)
+    at /home/binwalatul/contributor-carbon-web/test/headless_tests/node_modules/jest-jasmine2/build/index.js:202:13</failure>
+    </testcase>
+    <testcase classname="User is able to edit approved media-User is able to edit the approved footage content" name="User is able to edit approved media-User is able to edit the approved footage content" time="30.018">
+      <failure>Error: Element not found TimeoutError: waiting for selector &quot;input[type=&quot;checkbox&quot;]&quot; failed: timeout 30000ms exceeded
+    at Object.&lt;anonymous&gt;.module.exports [as waitForElement] (/home/binwalatul/contributor-carbon-web/test/headless_tests/commands/waitForElement.js:10:11)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

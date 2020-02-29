@@ -1,0 +1,7 @@
+{
+  "adminApiClient": {
+    "client_id": "adminapi-dev",
+    "client_secret": "12e8c-24cb7-e38f6-68a21-00eb5-81391",
+    "accounts_url": "https://contributor-accounts.dev.shutterstock.com/oauth/access_token"
+  }
+}

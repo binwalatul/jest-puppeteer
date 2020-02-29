@@ -1,0 +1,11 @@
+exports.clearValue = require('./clearValue');
+exports.getText = require('./getText');
+exports.login = require('./login');
+exports.poolUserLogin = require('./poolUserLogin');
+exports.waitForElement = require('./waitForElement');
+exports.setValue = require('./setValue');
+exports.getAttribute = require('./getAttribute');
+exports.waitForElementNotPresent = require('./waitForElementNotPresent');
+exports.clickAndWaitForTarget = require('./clickAndWaitForTarget');
+exports.Utility = require ('content-acceptance-utils/src/Utility');
+exports.waitForText = require('./waitForText');
